@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "osk-ekonomik-app-sdk41",
-    "slug": "osk-ekonomik-app-sdk41",
-    "version": "1.0.0",
+    "name": "OSK Ekonomik",
+    "slug": "osk-ekonomik-app",
+    "version": "3.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/favicon-310.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/brandlogo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0d2f54"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/favicon-310.png",
+        "backgroundColor": "#0d2f54"
+      },
+      "package": "pl.oskekonomik.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon-310.png"
     }
   }
 }
